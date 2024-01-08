@@ -1,0 +1,143 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    color:#2176AE;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+}
+.hero {
+    width: 720px;
+    height: 343px;
+    background-image: url("/images/background_olawa.jpg");
+    background-size: cover;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    
+}
+    
+.activities {
+    width: 720px;
+    height: 378px;
+    background: #F7F0F5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+       
+}
+
+.guide {
+    width: 720px;
+    height: 394px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.list-horizontal {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.list-item {
+    width: 198px;
+}
+
+.italic{
+   font-style: italic;
+}
+
+
+#hero-header {
+    background: #2176AE;
+    padding: 5px 12px;
+    border-radius: 10px;
+    color: #FFF;
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 11px;
+}
+
+#hero-subheader {
+    width: 412px;
+    background: #57B8FF;
+    padding: 8px 28px;
+    border-radius: 10px;
+    color: #FFF;
+    font-weight: 700;
+    color: #FFF;
+    font-size: 19px;
+    text-shadow: 0px 0px 2px #2176AE;
+    margin-top: 0px;
+  
+}
+
+#header-activities {
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+#guide-content {
+    width: 400px;
+    height: 323px; 
+    display: flex;
+    background-color: #433633;
+    color: #FFF;
+    box-shadow: 0px 6px 0px 0px #DECBB7;
+}
+
+#guide-img {
+    display: flex;
+    border-radius: 10px;
+    width: 1500px;
+    height: 250px;
+    margin: 23px 13px;
+    background-image: url("images/rafal-2.png")
+}
+
+#guide-img:hover {
+        background-image: url("images/blog.png")
+
+}
+
+#guide-txt {
+    margin: 0px 10px 0px 0px;
+}
